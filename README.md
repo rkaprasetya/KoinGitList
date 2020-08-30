@@ -7,6 +7,7 @@ Koin important keywords/functions
 - by inject() : allows to retrieve instances lazily
 - get() : function to retrieve directly an instance (non lazy)
 - koinComponent : For using koin features, tag the class with the same to get access to koin functions
+
 Koin Scopes
 - single : creates an object that persistent with the entire container lifetime
 - factory : creates new object each time. No persistence in container
